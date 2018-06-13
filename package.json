@@ -7,7 +7,15 @@
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-fonts": "^0.0.3",
+    "gatsby-plugin-styled-components": "^2.0.4",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.28",
+    "react-animations": "^1.0.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "styled-components": "^2.4.0"
   },
   "keywords": [
     "gatsby"
