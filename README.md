@@ -33,6 +33,6 @@ gatsby new gatsby-blog https://github.com/mabdulai/mabdulai-gatsby-starter
 Then you can run it by:
 
 ```sh
-cd gatsby-example-site
+cd gatsby-blog
 gatsby develop
 ```
