@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import './global.css';
 
 const Layout = ({ children, data }) => {
-  console.log(data);
-
   return (
     <div>
       <Helmet
