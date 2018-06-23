@@ -40,3 +40,6 @@ Then you can run it by:
 cd gatsby-blog
 gatsby develop
 ```
+
+now your it's running locally at
+[http://localhost:8000](http://localhost:8000)
