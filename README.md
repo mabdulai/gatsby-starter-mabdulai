@@ -1,8 +1,8 @@
 # mabdulai-gatsby-starter
 
-## Demo
+## Demo [https://gatsby-starter-mabdulai.netlify.com](https://gatsby-starter-mabdulai.netlify.com).
 
-[https://github.com/mabdulai/mabdulai-gatsby-starter](https://github.com/mabdulai/mabdulai-gatsby-starter).
+
 The default Gatsby starter adjusted by @mabdulai.
 
 I created my own gatsby starter so I can easily start up a new project with the technologies I prefer working with.
