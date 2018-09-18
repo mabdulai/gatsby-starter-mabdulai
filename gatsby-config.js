@@ -1,49 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mabdulai gatsby starter'
+    title: 'Mabdulai Gatsby Starter',
   },
   plugins: [
-    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        path: `${__dirname}/src/pages/posts`,
-        name: 'pages'
-      }
+        name: 'mabdulai-gatsby-starter',
+        short_name: 'mabdulai-starter',
+        start_url: '/',
+      },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-plugin-styled-components`,
       options: {
-        plugins: []
-      }
+        // Add any options here
+      },
     },
-    {
-      // Add your favourite google fonts to your project.
-      // `Roboto\:400,500,700,900`,
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: []
-      }
-    },
-    {
-      // A plugin for generating all essential favicons
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: './src/favicon.png',
-        injectHTML: true,
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
-    }
-  ]
+    'gatsby-plugin-offline',
+  ],
 };
