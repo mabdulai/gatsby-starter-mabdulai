@@ -17,7 +17,6 @@ In this project i'm using the following tech:
 - [styled-components](https://www.styled-components.com/)
 - [babel-plugin-styled-components](https://github.com/styled-components/babel-plugin-styled-components)
 - [react-helmet](https://github.com/nfl/react-helmet)
-- [gatsby-plugin-favicon](https://github.com/Creatiwity/gatsby-plugin-favicon)
 - [prettier](https://github.com/prettier/prettier)
 
 ## Install
