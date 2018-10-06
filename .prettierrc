@@ -1,17 +1,5 @@
 {
-  "useTabs": false,
-  "printWidth": 120,
-  "tabWidth": 2,
+  "semi": true,
   "singleQuote": true,
-  "trailingComma": "none",
-  "jsxBracketSameLine": false,
-  "parser": "babylon",
-  "noSemi": true,
-  "rcVerbose": true,
-  "overrides": [
-    {
-      "files": "*.md",
-      "options": { "parser": "markdown" }
-    }
-  ]
+  "trailingComma": "es5"
 }
