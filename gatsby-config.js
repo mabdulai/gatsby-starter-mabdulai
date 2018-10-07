@@ -1,51 +1,43 @@
 module.exports = {
   siteMetadata: {
+<<<<<<< HEAD
     title: 'gatsby-starter-mabdulai'
+=======
+    title: 'Mabdulai Gatsby Starter',
+>>>>>>> 3844799ebd392e29bc559c193394ce3878708662
   },
   plugins: [
-    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/posts`,
-        name: 'pages'
-      }
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-plugin-manifest`,
       options: {
+<<<<<<< HEAD
         name: 'gatsby-starter-mabdulai',
         short_name: 'mabdulai-starter',
         start_url: '/'
       }
+=======
+        name: 'mabdulai-gatsby-starter',
+        short_name: 'mabdulai-starter',
+        start_url: '/',
+      },
+>>>>>>> 3844799ebd392e29bc559c193394ce3878708662
     },
     {
-      // Add your favourite google fonts to your project.
-      // `Roboto\:400,500,700,900`,
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-styled-components`,
       options: {
-        fonts: []
-      }
+        // Add any options here
+      },
     },
-    {
-      // A plugin for generating all essential favicons
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: './src/favicon.png',
-        injectHTML: true,
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
-    }
-  ]
+    'gatsby-plugin-offline',
+  ],
 };
