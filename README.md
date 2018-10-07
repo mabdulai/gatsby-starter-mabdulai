@@ -48,14 +48,7 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 ## ✨ What makes this package special?
 
-<<<<<<< HEAD
 ### styled-components
-=======
-- [styled-components](https://www.styled-components.com/)
-- [babel-plugin-styled-components](https://github.com/styled-components/babel-plugin-styled-components)
-- [react-helmet](https://github.com/nfl/react-helmet)
-- [prettier](https://github.com/prettier/prettier)
->>>>>>> 3844799ebd392e29bc559c193394ce3878708662
 
 This package uses some of my favourite packages. Most importantly [styled components](https://www.styled-components.com/).
 This is also comes with a babel plugin wich helps with the debugging of your styled components in the Dev-tools.
