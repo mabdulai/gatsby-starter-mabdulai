@@ -1,6 +1,6 @@
 {
-  "name": "mabdulai-gatsby-starter",
-  "description": "Mabdulai Gatsby starter template",
+  "name": "gatsby-starter-mabdulai",
+  "description": "Gatsby starter Mabdulai",
   "version": "1.0.0",
   "author": "Michael Abdulai <mabdulai90@gmail.com>",
   "dependencies": {
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mabdulai/mabdulai-gatsby-starter"
+    "url": "https://github.com/mabdulai/gatsby-starter-mabdulai"
   }
 }

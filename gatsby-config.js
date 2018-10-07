@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mabdulai gatsby starter'
+    title: 'gatsby-starter-mabdulai'
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -15,7 +15,9 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: []
+        name: 'gatsby-starter-mabdulai',
+        short_name: 'mabdulai-starter',
+        start_url: '/'
       }
     },
     {
